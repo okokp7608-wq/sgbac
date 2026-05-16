@@ -208,7 +208,7 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => {
         </div>
         <div className="relative z-10 text-center px-margin-mobile">
           <span className="font-mono text-[12px] text-sgbac-tertiary-fixed tracking-[0.3em] mb-6 block uppercase">Seoul Gimpo Business Aviation Center</span>
-          <h1 className="text-[48px] md:text-[64px] font-bold mb-8 max-w-4xl mx-auto leading-tight font-headline tracking-tighter">The Fastest Way to Seoul,<br/> Business Aviation Center</h1>
+          <h1 className="text-[48px] md:text-[64px] font-bold mb-8 max-w-4xl mx-auto leading-tight font-headline tracking-tighter">The Fastest Way to Seoul,<br/> Korea’s Business Capital</h1>
           <p className="text-[18px] text-sgbac-surface-variant/80 max-w-2xl mx-auto mb-12 font-sans">도시의 중심에서 하늘의 길목까지, 성공적인 비즈니스를 위한 가장 완벽한 게이트웨이</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button onClick={() => setActivePage('facilities')} className="bg-white text-sgbac-primary font-mono text-[12px] px-10 py-4 rounded-lg hover:bg-sgbac-surface-container-low transition-all duration-300 scale-95 active:opacity-80 font-bold tracking-widest">EXPLORE SERVICES</button>
