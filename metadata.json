@@ -1,0 +1,6 @@
+{
+  "name": "SGBAC",
+  "description": "Seoul Gimpo Business Aviation Center - Premium private aviation hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
