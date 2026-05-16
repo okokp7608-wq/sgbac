@@ -1242,7 +1242,7 @@ const ReservationPage = ({ lang }: { lang: 'ko' | 'en' }) => {
 
 export default function App() {
   const [activePage, setActivePage] = useState('home');
-  const [lang, setLang] = useState<'ko' | 'en'>('ko');
+  const [lang, setLang] = useState<'ko' | 'en'>('en');
 
   useEffect(() => {
     window.scrollTo(0, 0);
