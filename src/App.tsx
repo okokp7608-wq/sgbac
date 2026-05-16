@@ -331,7 +331,7 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => {
         <div className="px-margin-desktop py-24 bg-sgbac-surface">
           <div className="max-w-xl">
             <span className="font-mono text-[12px] text-sgbac-outline mb-4 block uppercase tracking-widest">04. BOARDING</span>
-            <h2 className="text-[32px] md:text-[40px] font-bold text-sgbac-primary mb-6 font-headline tracking-tighter">항공기 문 앞까지 이어지는 세심한 예우</h2>
+            <h2 className="text-[32px] md:text-[40px] font-bold text-sgbac-primary mb-6 font-headline tracking-tighter">항공기 문 앞까지 이어지는 세심함</h2>
             <p className="text-[18px] text-sgbac-slate mb-12 leading-relaxed">
               마지막 여정까지 완벽하게. 라운지에서 항공기 계단 앞까지 전용 리무진으로 프라이빗하게 이동하는 최고의 의전을 경험하십시오. 항공기와 리무진이 함께 있는 고급스러운 연출로 SGBAC만의 차별화된 가치를 증명합니다.
             </p>
@@ -408,7 +408,7 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => {
             </div>
             <div className="lg:col-span-8 rounded-xl overflow-hidden h-[500px] border border-sgbac-outline-variant/30 shadow-lg relative bg-sgbac-surface">
               <img 
-                className="w-full h-full object-cover grayscale opacity-80" 
+                className="w-full h-full object-cover opacity-80" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCERPberbQJEytxug_i8LIbxbkMZm6WER8Z4KY94RQkEUW81qygbRMNiZMzcBr72B9TnTq0lQATsPmT-GayDek4xvDijVryrws1uo_tlLZiX2WY6qtTxz7GIxNmmvhMselicd4siBD5J25di-kofW71YYR8a0OYX035iOk2pk1DdHmb2T2UYCB1mqQa83URyMFZioANsV34G4Ta23PkSeyrLfVFRgIC6W3hO2_mmNrGh30EZ69HepaLE_p1BCmNFlCdquGndkhY_g" 
                 alt="Seoul Map" 
                 referrerPolicy="no-referrer"
@@ -449,7 +449,7 @@ const FacilitiesPage: React.FC<FacilitiesPageProps> = ({ setActivePage }) => {
             <div className="relative overflow-hidden aspect-[21/9] mb-12 rounded-lg bg-sgbac-surface-container shadow-sm border border-sgbac-outline-variant/30">
               <img 
                 alt="SGBAC Premium Hangar" 
-                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105" 
+                className="w-full h-full object-cover" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7PqdIy488Blnxz68y92q6S0-8HzEhkgEzR5IBEk3ojIL81mRYfQ4gLA3huNp_3o8hMDHggAbhjYFcvY6xooHYQzwAVnqt98UGV3XlEmY5aPiAf4h-EOGvW-0TgdwAtrXwzyM_8K5IA1JwDshuY7PX6s-o80vJam1jrwP1cKNeGhbkzg5zxcGdlEZg0bKH_unBH1-yqQs-CvkBg1l9ratEVxDIQjQw5E2RPWQi9ejHL7kCclqHCQk7Tm9l5kg8DoHoVNmCzPFsoQ"
                 referrerPolicy="no-referrer"
               />
@@ -503,7 +503,7 @@ const FacilitiesPage: React.FC<FacilitiesPageProps> = ({ setActivePage }) => {
             <div className="relative overflow-hidden aspect-[21/9] mb-12 rounded-lg bg-sgbac-surface-container shadow-sm border border-sgbac-outline-variant/30">
               <img 
                 alt="SGBAC Parking Stands" 
-                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105" 
+                className="w-full h-full object-cover" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAz-mTMrqfxVxWN-ue9-Zge7RrMJ3Ca744WyRPDwG6JZ6n_x2ljprJYpFBVZHpG0EDms1BuRI5z6x3Is4zDuujd5jN-V9EsTEKJVFpAWq208fc5W_ITAduH3Vx2WMPI33-zfgnZ_7Ifb90saYSbmAZpNCycaUT_4_TGeEnCrQ9jXwXSHfBCYMWz_chiLHlk4GvoilLui6yrxkru0UTZiI7adEDO8t3fv2ZRVHJN5ZBKEuO6NmxJaOgE4MfB-sr1tJkGKXt2MfUQxw"
                 referrerPolicy="no-referrer"
               />
@@ -548,7 +548,7 @@ const FacilitiesPage: React.FC<FacilitiesPageProps> = ({ setActivePage }) => {
             <div className="relative overflow-hidden aspect-[21/9] mb-12 rounded-lg bg-sgbac-surface-container shadow-sm border border-sgbac-outline-variant/30">
               <img 
                 alt="SGBAC Convenience Facilities" 
-                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105" 
+                className="w-full h-full object-cover" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzeHiJPOJCdhcsFy3ZhfRFt0QWSpyKnHZmNHQcC_5CAbFNRlrETiqpuObHsL4lA9NbpTnme3ronYPFs7UCZ_rjsP-e1Swy6SthwzF8qN51OSme6fFfGf5x307MLdCVTEVWt-KP_gNCCyPeX2zBXLeeWg4_DQEAhh-qB-qGplyoDGOtxNPkoNbudjH1RkH_fiAmQ4EDWLj1TNWlsljbLq7lESF0asGt48mAE-VcoH71Il3cFPQVREFeEe3CIgBbTZOsv2PZZrAvJQ"
                 referrerPolicy="no-referrer"
               />
@@ -589,26 +589,18 @@ const FacilitiesPage: React.FC<FacilitiesPageProps> = ({ setActivePage }) => {
           </div>
 
           {/* Crew Lounge Block */}
-          <div className="group">
-            <div className="relative overflow-hidden aspect-[21/9] mb-12 rounded-lg bg-sgbac-surface-container shadow-sm border border-sgbac-outline-variant/30">
-              <img 
-                alt="SGBAC Crew Lounge" 
-                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu5KFuR2XHfLxVIg348J7R97cYKeTH6tzH3V8SjICYnVZaKiICKtx49PNf62wvrY1UxgxKhUlfFDvooK0Q1gkVViR2sXpY4pu6tqZlPOYPbVp515EYkEkh3T8hFbz9zb1m-X1SqwA3jakvKwQTxmv5iEVUCzOJcQRLs22fhx9XS5zfl6MP89vdVgT_ztR2zI37qDfCOJkqrF28iYdw-m374OQZvoLJsiix-QXvYZ2sQjFjbwKj5bj7T1UgZ9PxZx-zJT6T4c0c0w"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-sgbac-primary/60 to-transparent flex flex-col justify-end p-12">
-                <h2 className="text-[32px] md:text-[40px] font-bold text-white mb-2 font-headline tracking-tight">승무원 라운지 <span className="font-normal opacity-80">Crew Lounge</span></h2>
-              </div>
+          <div>
+            <div className="mb-12 border-b border-sgbac-outline-variant pb-8">
+              <h2 className="text-[32px] md:text-[40px] font-bold text-sgbac-primary mb-2 font-headline tracking-tight">승무원 라운지 <span className="text-sgbac-slate font-normal opacity-80">Crew Lounge</span></h2>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
               <div className="lg:col-span-8 flex flex-col justify-center order-2 lg:order-1">
-                <p className="text-[18px] text-sgbac-slate mb-6 leading-relaxed">비즈니스항공센터에서는 장시간 비행에 지친 파일럿 및 승무원의 편안한 휴식을 위한 각종 편의시설 및 간단한 음료 등을 무료로 제공합니다.</p>
+                <p className="text-[18px] text-sgbac-slate mb-6 leading-relaxed">비즈니스항공센터에서는 장시간 비행에 지친 파일럿 및 승무원의 완벽한 리프레시를 위해 고급스러운 무드의 휴게 공간과 다양한 프리미엄 다과 서비스를 선사합니다.</p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">무료 PC 및 고속 인터넷</li>
-                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">편안한 휴식을 위한 휴계의자 및 수면의자</li>
-                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">TV, 잡지 등 엔터테인먼트</li>
-                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">차와 커피 등 다양한 다과 서비스</li>
+                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">프라이빗한 휴식을 위한 개별 라운지</li>
+                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">최고급 안마의자 및 수면 전용 공간</li>
+                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">전용 바(Bar) 및 프리미엄 식음료 서비스</li>
+                  <li className="aviation-gold-bullet text-[16px] text-sgbac-slate">고속 인터넷이 완비된 비즈니스 존</li>
                 </ul>
               </div>
               <div className="lg:col-span-4 order-1 lg:order-2">
@@ -758,7 +750,7 @@ const LocationPage = () => {
           <img 
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnesLax_UO-eBzSWU-KRkFYlj_-Oa3O-DuCBUV_4_ES6qhswLx1d22rXXQWoXpBJNpKQGcSqLxS1o2beFQB5w09Xet0MfhpKlLVlbasb4eFXxTHl52okujJYmVce-K_zhEjm83nxxX6qTNC-sdGfFGe3VgOCHRSnufsyM8GMIUXuRFQK4dKPjTrDZUvVmSxyM3LcsklkSDPJrMNiEEGprdgES8_4XWFXMeoAtzPEif0kkBp28t6hWrW_bUaq9-2Q7OLiH5DI6JuA" 
             alt="SGBAC Location Map"
-            className="w-full h-full object-cover grayscale contrast-125 brightness-90 hover:grayscale-0 transition-all duration-1000"
+            className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-sgbac-navy/5" />
